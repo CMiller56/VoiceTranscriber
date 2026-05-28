@@ -1,3 +1,4 @@
+"""
 Alternative: Voice-to-Text using the original openai-whisper package
 ====================================================================
 
