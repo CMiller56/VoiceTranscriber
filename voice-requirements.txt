@@ -1,0 +1,21 @@
+# Self-hosted Voice-to-Text (Whisper) dependencies
+# Use with: pip install -r voice-requirements.txt
+
+# === RECOMMENDED (fastest & most production-friendly) ===
+faster-whisper>=1.0.0
+
+# Audio handling
+sounddevice>=0.4.6
+numpy>=1.24
+scipy>=1.10
+
+# === OPTIONAL but very useful ===
+# For high-quality resampling when feeding raw audio at non-16kHz rates:
+# soxr
+
+# For even better VAD in advanced streaming setups:
+# webrtcvad-wheels    (or silero-vad via torch)
+
+# === ALTERNATIVE (simpler reference implementation) ===
+# openai-whisper
+# (use only one of faster-whisper or openai-whisper, not both)
