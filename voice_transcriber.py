@@ -1,3 +1,4 @@
+"""
 Self-Hosted Voice-to-Text (Speech-to-Text) Module using Whisper
 ================================================================
 
